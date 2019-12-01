@@ -1,0 +1,32 @@
+# Default setting - Git handles line ending
+* text=auto
+
+# Text files are normalized and converted to native line endings
+*.css           text
+*.htm           text
+*.html          text
+*.java          text
+*.py            text
+*.js            text
+*.json          text
+*.jsp           text
+*.properties    text
+*.sh            text
+*.txt           text
+*.tag           text
+*.xml           text
+*.yml           text
+*.svg           text
+
+# Binary files are left untouched.
+*.dll           binary
+*.ear           binary
+*.gif           binary
+*.ico           binary
+*.jar           binary
+*.jpg           binary
+*.jpeg          binary
+*.png           binary
+*.so            binary
+*.war           binary
+*.zip           binary     

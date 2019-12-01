@@ -9,7 +9,7 @@ RUN conda install --yes scikit-learn
 RUN conda install --yes pandas -c anaconda
 RUN conda install --yes flask -c anaconda
 RUN conda install --yes nltk -c anaconda
-RUN pip install pytorch-pretrained-bert==0.6.2
+RUN pip install transformers
 RUN pip install seqeval[cpu]
 
 RUN conda clean -afy

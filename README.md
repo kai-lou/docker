@@ -1,7 +1,9 @@
 # docker
 The project is for storing the docker files used for homebrew projects
 
-The PyTorch Dockerfiles can also be used as installation guides for Anaconda. All installation commands work in an Anaconda virtual environment.
+The PyTorch Dockerfiles can also be used as installation guides for configuring a PyTorch virtual environment in Anaconda. All installation commands work in an Anaconda virtual environment.
+
+Note that PyTorch GPU Dockerfile requires a Linux host with Nvidia GUDA driver installed. I only have an Ubuntu running as Windows Subsystem at the moment, so the GPU Dockerfile cannot be tested. If anyone can test it, please feel free to update the README.
 
 ## Often used Docker commands
     $ Docker images

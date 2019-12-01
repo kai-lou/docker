@@ -8,11 +8,11 @@ Note that PyTorch GPU Dockerfile requires a Linux host with Nvidia CUDA driver i
 However, if you install all the dependencies manually in an Anaconda environment on a Windows host with Nvidia CUDA driver, the environment works fine with GPU.
 
 ## Often used Docker commands
-    $ Docker images
-    $ Docker build -t <repository:tag_name>
-    $ Docker volume create --name <volume_name>
-    $ Docker volume ls
-    $ Docker ps
-    $ Docker stop <image_name/id>
+    $ docker images
+    $ docker build -t <repository:tag_name>
+    $ docker volume create --name <volume_name>
+    $ docker volume ls
+    $ docker ps
+    $ docker stop <image_name/id>
     $ winpty docker exec -t -i <container_id> sh (on Windows)
     $ docker exec -t -i <container_id> /bin/bash (on Linux)
